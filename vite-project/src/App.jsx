@@ -1,12 +1,16 @@
-import { useState } from 'react'
-
+import { useState } from 'react';
 import './App.css'
+import Header from './component/Header';
+
 
 function App() {
  
   return (
     
-      <h1 >Gokul lets start tomorrow </h1>
+    <div>
+      <Header />
+
+  </div>
      
   )
 }
